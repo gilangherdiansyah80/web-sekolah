@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/web-sekolah/src/assets/css/output.css">
+    <title>Footer</title>
 </head>
 <body>
     <footer class="bg-[#FFAB5B] flex flex-col gap-y-3">
         <div class="flex flex-col gap-y-3">
             <section class="flex gap-x-3 items-center">
-                <img src="./public/images/logo.png" alt="ade high school" class="w-20">
+                <img src="/web-sekolah/public/images/logo.png" alt="ade high school" class="w-20">
                 <h1 class="text-2xl text-[#003092] font-bold">Ade High School</h1>
             </section>
 
-            <hr class="w-96 self-center" />
+            <hr class="w-96 self-center md:w-full" />
 
             <section class="p-3 flex flex-col gap-y-3">
                 <h2 class="text-2xl font-semibold text-[#003092]">Our Menu</h2>
@@ -26,7 +27,7 @@
                 </ul>
             </section>
 
-            <hr class="w-96 self-center" />
+            <hr class="w-96 self-center md:w-full" />
 
             <section class="p-3 flex flex-col gap-y-3">
                 <h2 class="text-2xl font-semibold text-[#003092]">Our Contacts</h2>
@@ -58,7 +59,7 @@
         </div>
 
         <section class="bg-[#003092] flex justify-center items-center p-3">
-            <p class="text-center text-[#FFAB5B]">Copyright &copy; 2025 Ade High School</p>
+            <p class="text-center text-xl text-[#FFAB5B]">Copyright &copy; 2025 Ade High School</p>
         </section>
     </footer>
 </body>

@@ -19,11 +19,11 @@
             <section class="p-3 flex flex-col gap-y-3">
                 <h2 class="text-2xl font-semibold text-[#003092]">Our Menu</h2>
                 <ul class="text-[#003092] flex flex-col gap-y-3 text-xl">
-                    <li><a href="#" class="hover:text-[#00879E]">Home</a></li>
-                    <li><a href="#" class="hover:text-[#00879E]">About Us</a></li>
-                    <li><a href="#" class="hover:text-[#00879E]">Activities</a></li>
-                    <li><a href="#" class="hover:text-[#00879E]">News</a></li>
-                    <li><a href="#" class="hover:text-[#00879E]">Contact</a></li>
+                    <li><a href="/web-sekolah/index.php" class="hover:text-[#00879E]">Home</a></li>
+                    <li><a href="/web-sekolah/src/pages/about.php" class="hover:text-[#00879E]">About Us</a></li>
+                    <li><a href="/web-sekolah/src/pages/activities.php" class="hover:text-[#00879E]">Activities</a></li>
+                    <li><a href="/web-sekolah/src/pages/news.php" class="hover:text-[#00879E]">News</a></li>
+                    <li><a href="/web-sekolah/src/pages/contact.php" class="hover:text-[#00879E]">Contact</a></li>
                 </ul>
             </section>
 
